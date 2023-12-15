@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "ingest-to-datalake",
+      "region": "us-central1",
+      "gen": "GEN_2",
+      "revision": "gcs-csv-to-parquet-00081-xun",
+      "entryPoint": "ingest_to_datalake",
+      "runtime": "python310",
+      "testInput": ""
+    }
+  ]
+}
