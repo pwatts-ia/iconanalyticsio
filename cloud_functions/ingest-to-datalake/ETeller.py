@@ -53,7 +53,7 @@ class ETeller:
             Returns:
                 N/A
 
-            *******STILL NEEDS TO BE TESTED*******
+            *******STILL NEEDS TO BE TESTED********
         """
 
         self.etl_log.info(f'Reading passed file {source}')
